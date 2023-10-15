@@ -310,7 +310,7 @@ def load_data_n_model(dataset_name, model_name, root):
             print("using model: ViT")
             model = Widar_ViT(num_classes=num_classes)
             train_epoch = 200
-        return train_loader,validation_loader ,test_loader, model, train_epoch
+        return train_loader,val_loader ,test_loader, model, train_epoch
 
 
 def load_unsupervised_data_n_model(model_name,root):
