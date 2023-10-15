@@ -1,0 +1,378 @@
+Model: MLP, Dataset: UT_HAR_data)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+====== FOR TRAINING ======
+Number of Rows in Training Data: 216384
+Number of Features in Training Data: 250
+Number of Epochs: 200
+Learning Rate: 0.001
+=== Each epoch time ===
+	Epoch 1:	3.37 seconds
+	Epoch 2:	0.79 seconds
+	Epoch 3:	0.79 seconds
+	Epoch 4:	0.79 seconds
+	Epoch 5:	0.80 seconds
+	Epoch 6:	0.79 seconds
+	Epoch 7:	0.79 seconds
+	Epoch 8:	0.80 seconds
+	Epoch 9:	0.80 seconds
+	Epoch 10:	0.79 seconds
+	Epoch 11:	0.84 seconds
+	Epoch 12:	0.83 seconds
+	Epoch 13:	0.82 seconds
+	Epoch 14:	0.82 seconds
+	Epoch 15:	0.84 seconds
+	Epoch 16:	0.85 seconds
+	Epoch 17:	0.85 seconds
+	Epoch 18:	0.84 seconds
+	Epoch 19:	0.80 seconds
+	Epoch 20:	0.79 seconds
+	Epoch 21:	0.79 seconds
+	Epoch 22:	0.79 seconds
+	Epoch 23:	0.80 seconds
+	Epoch 24:	0.79 seconds
+	Epoch 25:	0.79 seconds
+	Epoch 26:	0.79 seconds
+	Epoch 27:	0.80 seconds
+	Epoch 28:	0.79 seconds
+	Epoch 29:	0.79 seconds
+	Epoch 30:	0.80 seconds
+	Epoch 31:	0.83 seconds
+	Epoch 32:	0.82 seconds
+	Epoch 33:	0.82 seconds
+	Epoch 34:	0.83 seconds
+	Epoch 35:	0.85 seconds
+	Epoch 36:	0.84 seconds
+	Epoch 37:	0.84 seconds
+	Epoch 38:	0.83 seconds
+	Epoch 39:	0.79 seconds
+	Epoch 40:	0.80 seconds
+	Epoch 41:	0.79 seconds
+	Epoch 42:	0.80 seconds
+	Epoch 43:	0.80 seconds
+	Epoch 44:	0.79 seconds
+	Epoch 45:	0.79 seconds
+	Epoch 46:	0.79 seconds
+	Epoch 47:	0.79 seconds
+	Epoch 48:	0.79 seconds
+	Epoch 49:	0.79 seconds
+	Epoch 50:	0.81 seconds
+	Epoch 51:	0.83 seconds
+	Epoch 52:	0.83 seconds
+	Epoch 53:	0.83 seconds
+Training accuracy: 0.8079, Training loss: 0.52567
+Validation accuracy: 0.8088, Validation loss: 0.50292
+RAM Memory Used: 531 MB
+GPU Memory Used: [0] MB
+ Inference Time: 47.87 seconds
+====== FOR Testing ======
+Number of Rows in Testing Data: 216384
+Number of Features in testing Data: 250
+validation accuracy:0.7887, loss:0.57176
+ Inference Time: 0.08 seconds
+-----------------------END-----------------------
+
+Model: MLP, Dataset: NTU-Fi-HumanID)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+====== FOR TRAINING ======
+Number of Rows in Training Data: 29760
+Number of Features in Training Data: 114
+Number of Epochs: 50
+Learning Rate: 0.001
+=== Each epoch time ===
+	Epoch 1:	15.59 seconds
+	Epoch 2:	2.50 seconds
+	Epoch 3:	2.38 seconds
+	Epoch 4:	2.73 seconds
+	Epoch 5:	2.76 seconds
+	Epoch 6:	2.43 seconds
+	Epoch 7:	2.37 seconds
+	Epoch 8:	2.39 seconds
+	Epoch 9:	2.41 seconds
+	Epoch 10:	2.70 seconds
+	Epoch 11:	2.85 seconds
+	Epoch 12:	2.41 seconds
+	Epoch 13:	2.38 seconds
+	Epoch 14:	2.40 seconds
+	Epoch 15:	2.45 seconds
+	Epoch 16:	2.79 seconds
+	Epoch 17:	2.81 seconds
+	Epoch 18:	2.42 seconds
+Training accuracy: 0.9369, Training loss: 1.06334
+Validation accuracy: 0.9099, Validation loss: 0.21764
+RAM Memory Used: 569 MB
+GPU Memory Used: [0] MB
+ Inference Time: 67.02 seconds
+====== FOR Testing ======
+Number of Rows in Testing Data: 29760
+Number of Features in testing Data: 114
+validation accuracy:0.8033, loss:0.55875
+ Inference Time: 8.76 seconds
+-----------------------END-----------------------
+
+Model: MLP, Dataset: NTU-Fi_HAR)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+====== FOR TRAINING ======
+Number of Rows in Training Data: 50944
+Number of Features in Training Data: 114
+Number of Epochs: 30
+Learning Rate: 0.001
+=== Each epoch time ===
+	Epoch 1:	25.21 seconds
+	Epoch 2:	19.23 seconds
+	Epoch 3:	26.85 seconds
+	Epoch 4:	16.15 seconds
+	Epoch 5:	6.76 seconds
+	Epoch 6:	5.64 seconds
+	Epoch 7:	4.29 seconds
+	Epoch 8:	4.16 seconds
+	Epoch 9:	5.19 seconds
+	Epoch 10:	4.07 seconds
+	Epoch 11:	4.00 seconds
+	Epoch 12:	4.53 seconds
+	Epoch 13:	4.57 seconds
+	Epoch 14:	4.03 seconds
+	Epoch 15:	4.14 seconds
+	Epoch 16:	4.68 seconds
+Training accuracy: 1.0000, Training loss: 0.00120
+Validation accuracy: 0.9844, Validation loss: 0.10555
+RAM Memory Used: 600 MB
+GPU Memory Used: [0] MB
+ Inference Time: 159.96 seconds
+====== FOR Testing ======
+Number of Rows in Testing Data: 50944
+Number of Features in testing Data: 114
+validation accuracy:0.9625, loss:0.05756
+ Inference Time: 7.92 seconds
+-----------------------END-----------------------
+
+Model: MLP, Dataset: Widar)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+====== FOR TRAINING ======
+Number of Rows in Training Data: 1900032
+Number of Features in Training Data: 20
+Number of Epochs: 30
+Learning Rate: 0.001
+=== Each epoch time ===
+	Epoch 1:	344.03 seconds
+	Epoch 2:	320.95 seconds
+	Epoch 3:	320.59 seconds
+	Epoch 4:	347.51 seconds
+	Epoch 5:	342.93 seconds
+	Epoch 6:	337.57 seconds
+	Epoch 7:	328.14 seconds
+	Epoch 8:	320.74 seconds
+	Epoch 9:	321.20 seconds
+Training accuracy: 0.7125, Training loss: 0.92580
+Validation accuracy: 0.6531, Validation loss: 1.14088
+RAM Memory Used: 477 MB
+GPU Memory Used: [0] MB
+ Inference Time: 3517.59 seconds
+====== FOR Testing ======
+Number of Rows in Testing Data: 1900032
+Number of Features in testing Data: 20
+validation accuracy:0.6385, loss:2.12531
+ Inference Time: 94.49 seconds
+-----------------------END-----------------------
+
+Model: LeNet, Dataset: UT_HAR_data)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+====== FOR TRAINING ======
+Number of Rows in Training Data: 216384
+Number of Features in Training Data: 250
+Number of Epochs: 200
+Learning Rate: 0.001
+=== Each epoch time ===
+	Epoch 1:	8.44 seconds
+	Epoch 2:	0.69 seconds
+	Epoch 3:	0.68 seconds
+	Epoch 4:	0.64 seconds
+	Epoch 5:	0.64 seconds
+	Epoch 6:	0.63 seconds
+	Epoch 7:	0.63 seconds
+	Epoch 8:	0.63 seconds
+	Epoch 9:	0.64 seconds
+	Epoch 10:	0.63 seconds
+	Epoch 11:	0.64 seconds
+	Epoch 12:	0.64 seconds
+	Epoch 13:	0.63 seconds
+	Epoch 14:	0.63 seconds
+	Epoch 15:	0.64 seconds
+	Epoch 16:	0.63 seconds
+	Epoch 17:	0.63 seconds
+	Epoch 18:	0.65 seconds
+	Epoch 19:	0.67 seconds
+	Epoch 20:	0.71 seconds
+	Epoch 21:	0.67 seconds
+	Epoch 22:	0.68 seconds
+	Epoch 23:	0.68 seconds
+	Epoch 24:	0.69 seconds
+	Epoch 25:	0.69 seconds
+	Epoch 26:	0.69 seconds
+	Epoch 27:	0.69 seconds
+	Epoch 28:	0.64 seconds
+	Epoch 29:	0.64 seconds
+	Epoch 30:	0.64 seconds
+	Epoch 31:	0.64 seconds
+	Epoch 32:	0.63 seconds
+	Epoch 33:	0.64 seconds
+	Epoch 34:	0.64 seconds
+	Epoch 35:	0.64 seconds
+	Epoch 36:	0.64 seconds
+	Epoch 37:	0.64 seconds
+	Epoch 38:	0.64 seconds
+	Epoch 39:	0.64 seconds
+	Epoch 40:	0.64 seconds
+	Epoch 41:	0.64 seconds
+	Epoch 42:	0.67 seconds
+	Epoch 43:	0.68 seconds
+	Epoch 44:	0.68 seconds
+	Epoch 45:	0.67 seconds
+	Epoch 46:	0.68 seconds
+	Epoch 47:	0.69 seconds
+	Epoch 48:	0.69 seconds
+	Epoch 49:	0.69 seconds
+Training accuracy: 0.9906, Training loss: 0.03497
+Validation accuracy: 0.9609, Validation loss: 0.14689
+RAM Memory Used: 1276 MB
+GPU Memory Used: [0] MB
+ Inference Time: 43.01 seconds
+====== FOR Testing ======
+Number of Rows in Testing Data: 216384
+Number of Features in testing Data: 250
+validation accuracy:0.9575, loss:0.15873
+ Inference Time: 0.13 seconds
+-----------------------END-----------------------
+
+Model: LeNet, Dataset: NTU-Fi-HumanID)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+====== FOR TRAINING ======
+Number of Rows in Training Data: 29760
+Number of Features in Training Data: 114
+Number of Epochs: 50
+Learning Rate: 0.001
+=== Each epoch time ===
+	Epoch 1:	16.36 seconds
+	Epoch 2:	2.41 seconds
+	Epoch 3:	2.47 seconds
+	Epoch 4:	2.71 seconds
+	Epoch 5:	2.63 seconds
+	Epoch 6:	2.28 seconds
+	Epoch 7:	2.31 seconds
+	Epoch 8:	2.34 seconds
+	Epoch 9:	2.47 seconds
+	Epoch 10:	2.66 seconds
+	Epoch 11:	2.65 seconds
+	Epoch 12:	2.27 seconds
+	Epoch 13:	2.30 seconds
+	Epoch 14:	2.29 seconds
+	Epoch 15:	2.39 seconds
+	Epoch 16:	2.61 seconds
+	Epoch 17:	2.62 seconds
+	Epoch 18:	2.32 seconds
+	Epoch 19:	2.28 seconds
+	Epoch 20:	2.26 seconds
+	Epoch 21:	2.33 seconds
+	Epoch 22:	2.65 seconds
+	Epoch 23:	2.66 seconds
+Training accuracy: 1.0000, Training loss: 0.00763
+Validation accuracy: 0.9628, Validation loss: 0.07857
+RAM Memory Used: 1291 MB
+GPU Memory Used: [0] MB
+ Inference Time: 80.19 seconds
+====== FOR Testing ======
+Number of Rows in Testing Data: 29760
+Number of Features in testing Data: 114
+validation accuracy:0.9423, loss:0.12601
+ Inference Time: 8.90 seconds
+-----------------------END-----------------------
+
+Model: LeNet, Dataset: NTU-Fi_HAR)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+====== FOR TRAINING ======
+Number of Rows in Training Data: 50944
+Number of Features in Training Data: 114
+Number of Epochs: 30
+Learning Rate: 0.001
+=== Each epoch time ===
+	Epoch 1:	27.38 seconds
+	Epoch 2:	23.00 seconds
+	Epoch 3:	20.93 seconds
+	Epoch 4:	24.27 seconds
+	Epoch 5:	25.69 seconds
+	Epoch 6:	11.57 seconds
+	Epoch 7:	5.94 seconds
+	Epoch 8:	5.69 seconds
+	Epoch 9:	4.66 seconds
+	Epoch 10:	4.17 seconds
+	Epoch 11:	4.45 seconds
+	Epoch 12:	4.45 seconds
+	Epoch 13:	3.98 seconds
+	Epoch 14:	4.09 seconds
+	Epoch 15:	4.58 seconds
+	Epoch 16:	3.91 seconds
+	Epoch 17:	3.90 seconds
+	Epoch 18:	4.50 seconds
+	Epoch 19:	4.29 seconds
+	Epoch 20:	3.90 seconds
+	Epoch 21:	4.02 seconds
+	Epoch 22:	4.53 seconds
+	Epoch 23:	3.94 seconds
+	Epoch 24:	3.89 seconds
+	Epoch 25:	4.32 seconds
+	Epoch 26:	4.41 seconds
+	Epoch 27:	3.89 seconds
+	Epoch 28:	3.86 seconds
+	Epoch 29:	4.58 seconds
+	Epoch 30:	4.08 seconds
+Training accuracy: 1.0000, Training loss: 0.00009
+Validation accuracy: 0.9948, Validation loss: 0.01118
+RAM Memory Used: 1298 MB
+GPU Memory Used: [0] MB
+ Inference Time: 267.13 seconds
+====== FOR Testing ======
+Number of Rows in Testing Data: 50944
+Number of Features in testing Data: 114
+validation accuracy:0.9375, loss:0.06167
+ Inference Time: 8.07 seconds
+-----------------------END-----------------------
+
+Model: LeNet, Dataset: Widar)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+====== FOR TRAINING ======
+Number of Rows in Training Data: 1900032
+Number of Features in Training Data: 20
+Number of Epochs: 100
+Learning Rate: 0.001
+=== Each epoch time ===
+	Epoch 1:	374.28 seconds
+	Epoch 2:	354.64 seconds
+	Epoch 3:	354.14 seconds
+	Epoch 4:	350.46 seconds
+	Epoch 5:	349.81 seconds
+	Epoch 6:	350.74 seconds
+	Epoch 7:	348.40 seconds
+	Epoch 8:	347.85 seconds
+	Epoch 9:	345.99 seconds
+	Epoch 10:	347.25 seconds
+	Epoch 11:	347.39 seconds
+	Epoch 12:	352.72 seconds
+Training accuracy: 0.7770, Training loss: 0.68411
+Validation accuracy: 0.6722, Validation loss: 1.07241
+RAM Memory Used: 1257 MB
+GPU Memory Used: [0] MB
+ Inference Time: 4972.07 seconds
+====== FOR Testing ======
+Number of Rows in Testing Data: 1900032
+Number of Features in testing Data: 20
+validation accuracy:0.6813, loss:1.58689
+ Inference Time: 102.97 seconds
+-----------------------END-----------------------
+
